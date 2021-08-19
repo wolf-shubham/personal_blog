@@ -1,0 +1,15 @@
+{
+  "name": "personal_blog",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shubham Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
