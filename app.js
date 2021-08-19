@@ -7,12 +7,8 @@ app.listen(port, (req, res) => {
     console.log(`server listening on port ${port}`);
 })
 
-app.get('/', (req, res, next) => {
-    res.send("hello");
-    res.end();
-    next();
-});
+app.use(express.static('public'));
 
-app.use(function (req, res, next) {
-    console.log('Time:', Date())
-})
+app.get('/', (req, res) => {
+    res.sendFile('./views/index.html', { root: __dirname });
+});
