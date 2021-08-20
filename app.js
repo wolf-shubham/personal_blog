@@ -17,6 +17,11 @@ app.get('/about', (req, res) => {
     res.sendFile('./views/about.html', { root: __dirname });
 });
 
+app.get('/contact-me', (req, res) => {
+    res.sendFile('./views/contact.html', { root: __dirname });
+});
+
+
 app.use("/", (req, res) => {
-    res.send('./views/404.html', { root: __dirname })
+    res.sendFile('./views/404.html', { root: __dirname })
 });
