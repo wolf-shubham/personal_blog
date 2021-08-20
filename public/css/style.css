@@ -105,7 +105,6 @@ header p {
   position: absolute;
   bottom: 5%;
   font-size: 45px;
-  /* font-weight: bold; */
   line-height: 2;
   letter-spacing: 3px;
   /* font-family: "Courgette", cursive; */
@@ -120,5 +119,5 @@ header p {
 
 section div {
   height: 100vh;
-  background-color: orange;
+  background-color: black;
 }
