@@ -10,7 +10,6 @@ header {
   height: 100vh;
   background-image: url(/images/blog_3.jpg);
   background-size: 100% 115vh;
-  /* background-repeat: no-repeat; */
   overflow: hidden;
 }
 
@@ -95,5 +94,22 @@ header {
 }
 
 header p {
-  color: green;
+  color: #fff;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  bottom: 5%;
+  font-size: 45px;
+  /* font-weight: bold; */
+  line-height: 2;
+  letter-spacing: 3px;
+  /* font-family: "Courgette", cursive; */
+  font-family: "Kaushan Script", cursive;
+}
+
+.tagline {
+  background: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
